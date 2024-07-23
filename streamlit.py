@@ -1,4 +1,10 @@
 import streamlit as st
+with st.chat_message("user"):
+>>>    st.write("Hello 👋")
+>>>    st.line_chart(np.random.randn(30, 3))
+
+# Display a chat input widget.
+>>> st.chat_input("Say something")
 video_file=st.file_uploader("Upload the song you want to hear and after that fill below all the details",type=['mp4'])
 if video_file is not None:
  st.video(video_file.read())
