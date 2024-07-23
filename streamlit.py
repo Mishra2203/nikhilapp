@@ -24,6 +24,6 @@ st.write(f'Thanks for your answer: {like}')
 if st.button('I am not a robot'):
     st.write("I know you are human!")
 
-text area=st.text_area('Write something about yourself')
-st.write(text area)
+textarea=st.text_area('Write something about yourself')
+st.write(textarea)
 
