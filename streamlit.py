@@ -1,5 +1,5 @@
 import streamlit as st
-video_file=st.file_uploader("Upload the song you want to hear and after that fill below all the details",type=['mp3'])
+video_file=st.file_uploader("Upload the song you want to hear and after that fill below all the details",type=['mp4'])
 if video_file is not None:
  st.video(video_file.read())
 
