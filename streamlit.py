@@ -2,6 +2,8 @@ import streamlit as st
 video_file=st.file_uploader("Upload the song you want to hear and after that fill below all the details",type=['mp4'])
 if video_file is not None:
  st.video(video_file.read())
+ st.subheader("Upload image")
+ st.image(""https://youtu.be/YkGFaQQQsvQ?feature=shared.jpg)
 
 # Get user's name
 name = st.text_input('Enter your name')
