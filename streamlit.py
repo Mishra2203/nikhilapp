@@ -1,4 +1,5 @@
 import streamlit as st
+audio_file=st.file_uploader("Upload the song you want to hear and after that fill below all the details",type=['mp3'])
 
 # Get user's name
 name = st.text_input('Enter your name')
