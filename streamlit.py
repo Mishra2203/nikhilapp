@@ -1,8 +1,8 @@
 import streamlit as st
 st.title("UTTAR PRADESH")
 st.header("{JAAT},{PANDIT}")
-image_file = st.file_uploader("D:\NIKHIL\pandit.jpeg", type=['jpeg', 'png'])
-image_file = st.file_uploader("D:\NIKHIL\jaat.jpeg", type=['jpeg', 'png'])
+image_file = st.file_uploader("D:\\NIKHIL\\pandit.jpeg", type=['jpeg', 'png'])
+image_file = st.file_uploader("D:\\NIKHIL\\jaat.jpeg", type=['jpeg', 'png'])
 if image_file is not None:
     img = Image.open(image_file)
     st.image(img)
