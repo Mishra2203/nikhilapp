@@ -2,11 +2,7 @@ import streamlit as st
 st.title("UTTAR PRADESH")
 st.header("JAAT,PANDIT,GURJAR,THAKUR")
 
-try:
-    st.image('D:/NIKHIL/up.jpg')
-except Exception as e:
-    print(e)
-
+st.image("D:\NIKHIL\up.jpg")
 
 
 
