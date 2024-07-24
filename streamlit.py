@@ -1,18 +1,9 @@
 import streamlit as st
+from PIL import Image
+img=Image.open("D:\NIKHIL\up.jpg")
+st.image(img)
 st.title("UTTAR PRADESH")
 st.header("JAAT,PANDIT,GURJAR,THAKUR")
-
-try:
-    st.image(r"D:\NIKHIL\up.jpg")
-except FileNotFoundError:
-    st.write("Image file not found. Please check the file path.")
-
-
-
-
-
-
-
 
 
 
