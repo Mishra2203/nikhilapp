@@ -1,7 +1,12 @@
 import streamlit as st
 st.title("UTTAR PRADESH")
 st.header("JAAT,PANDIT,GURJAR,THAKUR")
-st.image(r"D:\NIKHIL\up.jpg")
+
+try:
+    st.image(r"D:\NIKHIL\up.jpg")
+except FileNotFoundError:
+    st.write("Image file not found. Please check the file path.")
+
 
 
 
