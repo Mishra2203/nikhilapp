@@ -1,7 +1,7 @@
 import streamlit as st
 st.heading("UTTAR PRADESH")
 st.heading("JAAT,PANDIT,GURJAR,THAKUR")
-st.image('D:\NIKHIL\up.jpg')
+st.image('D:\\NIKHIL\\up.jpg')
 
 
 
