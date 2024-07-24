@@ -1,7 +1,7 @@
 import streamlit as st
 st.title("UTTAR PRADESH")
 st.header("JAAT,PANDIT,GURJAR,THAKUR")
-st.image("D:\NIKHIL\up.jpg", caption='Enter any caption here')
+st.image(r"D:\NIKHIL\up.jpg")
 
 
 
