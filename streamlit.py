@@ -1,6 +1,6 @@
 import streamlit as st
 from PIL import Image
-image_file = st.file_uploader(""D:\\NIKHIL\\up.jpg"", type=['jpg', 'png'])
+image_file = st.file_uploader("D:\\NIKHIL\\up.jpg", type=['jpg', 'png'])
 if image_file is not None:
     img = Image.open(image_file)
     st.image(img)
