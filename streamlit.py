@@ -1,7 +1,10 @@
 import streamlit as st
 from PIL import Image
-img=Image.open("up.jpg")
-st.image(img)
+image_file = st.file_uploader(""D:\\NIKHIL\\up.jpg"", type=['jpg', 'png'])
+if image_file is not None:
+    img = Image.open(image_file)
+    st.image(img)
+
 st.title("UTTAR PRADESH")
 st.header("JAAT,PANDIT,GURJAR,THAKUR")
 
