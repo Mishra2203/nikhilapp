@@ -1,8 +1,9 @@
 import streamlit as st
 st.title("UTTAR PRADESH")
 st.header("JAAT,PANDIT,GURJAR,THAKUR")
+with open('D:\\NIKHIL\\up.jpg', 'rb') as f:
+    st.image(f.read())
 
-st.image('D:\\NIKHIL\\up.jpg')
 
 
 
